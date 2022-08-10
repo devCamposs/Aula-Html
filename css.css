@@ -1,0 +1,20 @@
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: red;
+}
+
+#paragrafo{
+    
+}
+footer {
+    display: flex;
+    justify-content: center;
+    border-top:  solid 2px gray;
+    padding-top: 10px;
+
+}

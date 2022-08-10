@@ -26,10 +26,11 @@ img {
     box-shadow: 5px 5px 10px rgb(28, 28, 29);
     border-radius: 10px;
 }
-footer {
+footer#rodape {
     display: flex;
     justify-content: center;
     border-top:  solid 2px gray;
     padding-top: 10px;
+  
 
 }

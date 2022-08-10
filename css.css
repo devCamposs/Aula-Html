@@ -1,14 +1,30 @@
 
-body {
-   
+main {
+    font-family: sans-serif;
+    line-height: 20px;
+    text-align: justify;
+    font-size: 16px;
+    background-color: rgb(225, 219, 212);
 }
 
+div#primeiraDiv {
+    padding: 10px;
+}
 h1 {
     color: red;
 }
 
-#paragrafo{
+div#imagem {
+    text-align: center;
+    background-color: rgb(244, 233, 220);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.577);
+    border-radius: 10px;
     
+}
+
+img {
+    box-shadow: 5px 5px 10px rgb(28, 28, 29);
+    border-radius: 10px;
 }
 footer {
     display: flex;

@@ -1,5 +1,9 @@
+* {
+    font-family: Arial, Helvetica ;
 
+}
 main {
+    
     font-family: sans-serif;
     line-height: 20px;
     text-align: justify;
@@ -7,14 +11,12 @@ main {
     background-color: rgb(250, 250, 250);
 }
 
-div#primeiraDiv {
-    padding: 10px;
-}
 h1 {
     color: red;
 }
 
 div#imagem {
+    
     text-align: center;
     background-color: rgb(244, 233, 220);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.577);
@@ -22,13 +24,21 @@ div#imagem {
     
 }
 
+div#texto {
+    text-align:center;
+    padding: 10px;
+}
+
 img {
     box-shadow: 5px 5px 10px rgb(28, 28, 29);
     border-radius: 10px;
 }
 footer#rodape {
+
     display: flex;
     justify-content: center;
+    /*justify-content:space-around;*/
+    margin: 3px;
     border-top:  solid 2px gray;
     padding-top: 10px;
   
